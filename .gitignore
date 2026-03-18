@@ -1,0 +1,93 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# API Keys and Environment Variables
+.env
+.env.*
+!.env.example
+apikey.json
+credentials.json
+*.pem
+
+# Supabase
+.supabase/
+supabase/.branches/
+supabase/config.toml
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Flutter build outputs (additional)
+build/app/intermediates/
+build/app/generated/
+build/app/generated_source/
+build/app/kotlin/
+build/app/inputs/
+build/app/outputs/
+
+# iOS build outputs
+ios/Pods/
+ios/.symlinks/
+ios/Podfile.lock
+
+# macOS
+*.dSYM.zip
+*.dSYM
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Secrets and credentials
+serviceAccountKey.json
+google-services.json
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+app_key.json
+secret_key.txt
+access_token.txt
