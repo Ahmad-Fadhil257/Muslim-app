@@ -56,6 +56,8 @@ credentials.json
 .supabase/
 supabase/.branches/
 supabase/config.toml
+supabase_schema.sql
+schema.sql
 
 # Local database files
 *.db
